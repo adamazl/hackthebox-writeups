@@ -3,22 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Page for HackTheBox Writeups.">
+    <meta name="description" content="Contact - HackTheBox Writeups.">
     <title>Contact</title>
     <!-- Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        html, body {
-            height: 100%;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-        main {
-            flex: 1;
-        }
-    </style>
 </head>
 <body class="bg-gray-900 text-white">
     <!-- Navbar -->
@@ -32,17 +20,16 @@
         </div>
     </nav>
 
-    <!-- Contact Content -->
-    <main class="container mx-auto p-6">
-        <h1 class="text-4xl font-bold mb-4">Contact Us</h1>
-        <p class="mb-6">For any inquiries or questions regarding HackTheBox writeups, feel free to reach out!</p>
-        <form class="space-y-4">
-            <input type="text" placeholder="Your Name" class="w-full p-2 bg-gray-800 border border-gray-700 rounded text-white">
-            <input type="email" placeholder="Your Email" class="w-full p-2 bg-gray-800 border border-gray-700 rounded text-white">
-            <textarea placeholder="Your Message" class="w-full p-2 bg-gray-800 border border-gray-700 rounded text-white"></textarea>
-            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Send</button>
-        </form>
-    </main>
+    <!-- Contact Info -->
+    <div class="container mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-4">Contact</h1>
+        <p class="mb-6">Feel free to reach out via the following platforms:</p>
+        <ul class="list-disc pl-5">
+            <li class="mb-2">Email: <a href="mailto:hello@adamaizal.com" class="text-blue-400 hover:underline">hello@adamaizal.com</a></li>
+            <li class="mb-2">LinkedIn: <a href="https://www.linkedin.com/in/adamaizal" target="_blank" class="text-blue-400 hover:underline">linkedin.com/in/adamaizal</a></li>
+            <li class="mb-2">GitHub: <a href="https://github.com/adamazl" target="_blank" class="text-blue-400 hover:underline">github.com/adamazl</a></li>
+        </ul>
+    </div>
 
     <!-- Footer -->
     <footer class="bg-gray-800 p-4 text-center">
